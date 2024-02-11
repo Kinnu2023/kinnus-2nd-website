@@ -37,7 +37,7 @@ button{
 	border-radius: 5px;
 	font-size: 15px;
 	position: absolute;
-	bottom:40% ;
+	top:60% ;
 	font-weight:700;
 	transition: all 0.7s;
 }
