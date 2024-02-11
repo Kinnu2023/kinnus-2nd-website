@@ -10,7 +10,8 @@ h1{
 	font-size: 45px;
 	position: absolute;
    top: 20%;
-  left: 28%;
+  left: 50%;
+  transform: translateX(-50%);
   font-family: sans-serif;
   font-weight:;
 
@@ -36,12 +37,13 @@ button{
 	border-radius: 5px;
 	font-size: 15px;
 	position: absolute;
-	top:432px ;
+	bottom:40% ;
 	font-weight:700;
 	transition: all 0.7s;
 }
 .yes{
-	left: 495px;
+	left: 50%;
+	transform: translateX(-130%);
 }
 .yes:hover{
 	background-color:white;
@@ -53,13 +55,19 @@ button{
  .gif{
       position: absolute;
       top:35%;
-      left: 39%;
+      left: 50%;
+      transform: translateX(-50%);
 }
 button:hover{
 	background-color:white;
 	color:darkred;
 	letter-spacing: 0.25em;
 	box-shadow: 3px 3px 3px #FF0000
+}
+#no{
+
+	transform: translateX(50%);
+
 }
 
 
