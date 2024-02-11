@@ -1,0 +1,65 @@
+body{
+	background-color:hsla(0, 100%, 50%, 0.3);
+	height: 100%;
+	text-align:center;
+    overflow: hidden;
+}
+
+h1{
+	color: darkred;
+	font-size: 45px;
+	position: absolute;
+   top: 20%;
+  left: 28%;
+  font-family: sans-serif;
+  font-weight:;
+
+}
+h1:hover{
+	color:darkred;
+	text-shadow:0px 0px 5px palevioletred ;
+	cursor: pointer;
+}
+
+button{
+	color: white;
+	background-color:darkred;
+	padding-left: 17px;
+	padding-right: 17px;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	border-bottom-color:brown ;
+	border-top-color:darkred ;
+	border-left-color:darkred ;
+	border-right-color:darkred ;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 15px;
+	position: absolute;
+	top:432px ;
+	font-weight:700;
+	transition: all 0.7s;
+}
+.yes{
+	left: 495px;
+}
+.yes:hover{
+	background-color:white;
+	color:darkred;
+	letter-spacing: 0.25em;
+	text-shadow: 0px 0 3px #FF0000;
+}
+
+ .gif{
+      position: absolute;
+      top:35%;
+      left: 39%;
+}
+button:hover{
+	background-color:white;
+	color:darkred;
+	letter-spacing: 0.25em;
+	box-shadow: 3px 3px 3px #FF0000
+}
+
+

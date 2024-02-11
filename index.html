@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SURPRISE FOR YOU!</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+
+	
+		
 </head>
 <body>
-    <h1>WELCOME </h1>
+	
+
+	<h1>Will you be my valentine?</h1>
+
+	 <img class="gif" src="https://media.tenor.com/jZwdo-eAxoEAAAAj/sweet-zahraa-cute-zahraa.gif" alt="Cute GIF">
+
+
+	<button onclick="createNewPage()" class="yes">Yes</button>
+
+
+
+	<script type="text/javascript">
+		function createNewPage(){
+		 window.open("newpage.html","_self")
+		}
+	</script>
+
+
+	
+	<button id="no">No</button>
+
+
+
+<script>
+  const btn = document.getElementById("no");
+  console.log(btn)
+
+  btn.addEventListener('mouseover', () => {
+    const randomX = Math.random() * window.innerWidth;
+    const randomY = Math.random() * window.innerHeight;
+
+    btn.style.left = `${randomX}px`;
+
+    btn.style.top = `${randomY}px`;
+  });
+</script>
+
+
 </body>
 </html>
